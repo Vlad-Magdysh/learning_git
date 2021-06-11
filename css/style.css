@@ -1,0 +1,346 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding:0; margin:0;}
+li{
+	text-decoration:none;
+	list-style-type:none;}
+body{
+	font-family: 'Raleway', sans-serif;}
+.logo{
+	width:100%;
+	border-bottom: 2px solid grey;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+	background-color:white;
+	display:flex;
+  justify-content:center;}
+.graphic-logo{
+	padding:5px;
+	max-width:100%;
+	box-sizing: border-box;}
+nav{
+	padding:10px;
+	padding-bottom:20px;
+	padding-left:20px;
+	padding-top:20px;
+	display:inline-flex;
+	justify-content:center;
+	width:100%;
+	border-bottom: 2px solid grey;
+	box-shadow: 0 0 10px rgba(0,0,0,1); }
+a{
+	text-decoration:none;}
+.topnav{
+	font-size:16px;
+	min-width:710px}
+.menu{
+	display:inline-flex;}
+.guide{
+	color:black;
+	background-color:none;
+	text-align:center;
+    padding:14px 16px;
+	border-bottom:4px solid white;}
+.guide:hover{
+	border-bottom:4px groove black}
+
+.web{
+	display:flex;
+	justify-content:center;
+	box-sizing:border-box;
+	width:100%}
+.advantages-container{
+	display:flex;
+	justify-content:center;
+	}
+.advantages{
+	padding-top:40px;
+	padding-bottom:40px;
+	width:70%;
+	display:flex;
+	flex-wrap:wrap;
+	text-align:center;
+	justify-content:space-between;}
+.advantages-item{
+	width:30%;}
+.cars{
+	padding-top:40px;
+	padding-bottom:40px;
+	width:70%;
+	display:inline-flex;
+	flex-wrap:wrap;
+	text-align:center;
+	justify-content:space-between;}
+.project-item{
+	border: 1px solid white;
+	font-family: arial ;
+	font-size: 18px;
+	user-select: none;
+	margin-top:10px;
+	width:30%;}
+.project-item:hover{
+	border: 1px solid #0786e6;}
+.models{
+	color: #0786e6;
+	width: 100%;
+	box-sizing:border-box;
+	padding:0px;}
+.graphic-logo{}
+.price{
+	color: grey ;
+	font-size: 12px;
+
+}
+footer{
+	box-sizing:border-box;
+	background-color:black;
+	width:100%;
+	height:auto;
+	text-align:center;
+	margin:0 auto;}
+.guide-bottom{
+	color:white;
+	background-color:none;
+	text-align:center;
+    padding:14px 16px;
+	border-bottom:4px solid black;}
+.guide-bottom:hover{
+	border-bottom:4px groove white}
+.bentley{
+	border: 2px double white;
+	padding:25px;
+	text-align:center;
+	font-size:48px;
+	color:white;}
+.bentley:hover{
+	background-color:white;
+	color:black;}
+.bottomm-nav{
+	padding-bottom:40px;
+	border:none;}
+.name{
+	padding-bottom:40px;
+    padding-left:6px;}
+.social{
+	padding-bottom:40px;
+	padding-top:10px;
+	padding-left:20px;}
+.bottom-a{
+	padding:5px;}
+.corporation{
+	color:white;}
+.container{
+	background: #bababa;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 4px 2px -2px;
+	font-weight: 100;
+	margin: 48px auto;
+	 width: 40rem;
+}
+.container a:hover{
+	border-color: #ff4d4d;
+	color: #ff4d4d;
+}
+.blog-header{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.blog-cover img{
+	box-sizing: border-box;
+	border-radius: 10px 10px 0 0; 
+	max-width: 100%;
+}
+.blog-body{
+	margin: 0 auto;
+	width: 80%;
+}
+.blog-title h1 a{
+	color: #333;
+	font-weight: 100;
+}
+.blog-text p{
+	color: #4d4d4d;
+}
+.blog-tags ul{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-left: 0;
+	list-style: none;
+}
+.blog-tags li + li {
+	margin-left: .5rem; 
+}
+.blog-tags a{
+	border: 1px solid #999999;
+	border-radius: 3px;
+	color: white;
+	font-size: .75rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	letter-spacing: 1px;
+	padding: 0 .5rem;
+	text-align: center;
+	text-transform: uppercase;
+	white-space: nowrap;
+	width: 5px;
+}
+.blog-footer{
+	border-top: 1px solid #e6e6e6;
+	margin: 0 auto;
+	padding-bottom: .125;
+	width: 80%;
+}
+.blog-footer ul{
+	list-style: none;
+	display: flex;
+	flex: row wrap;
+	justify-content: flex-end;
+	padding-left: 0;
+}
+.blog-footer li{
+	color: white;
+	font-size: .75rem;
+	height: 1.5rem;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	white-space: nowrap;
+}
+.published-data{
+	border: 1px solid #999999;
+	border-radius: 3px;
+	padding: 0 .5px;
+}
+.map{
+	width: 100%;
+	height:600px;
+}
+.form{
+	width: 50%;
+	margin: 50px auto;
+}
+.feedback-input{
+  color: #000;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  background-color: white;
+  padding: 13px;
+  width: 100%;
+  -webkin-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 0px solid transparent;
+  border-bottom: 1px solid #000;
+}
+textarea{
+	width: 100%;
+	height:150px;
+resize: vertical;
+}
+.button-submit{
+	float: left;
+	width: 100%;
+	border: 0px solid transparent;
+	cursor: pointer;
+	background-color: #000;
+	color: white;
+	font-size: 18px;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	transition: all 0.3s;
+	margin-top: -4px;
+	font-weight: 300; 
+}
+.button-submit:hover{
+	background-color: white;
+	color: #000;
+	border: 1px solid #000;
+}
+.ease{width: 0;
+height: 74px;}
+.about-container{margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+width: 60%;}
+.about-image{
+	width: 100%;
+	display: flex;
+	justify-content: center;}
+.paint{
+	border-radius: 15px;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+}
+.description{
+	background-color: #fafafa;
+}
+.bentley-text{
+	font-size: 17px;
+	font-family: arial;
+	text-align: center;
+}
+.service-name{
+	text-shadow: 1px 3px 2px grey;
+	padding-bottom: 20px;
+	font-size: 54px;
+}
+.border-side{
+	padding: 5px;
+	border-left: 3px dashed black;
+	border-right: 3px dashed black;
+	}
+.services-container{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.services-block{
+	text-align: center;
+	padding: 20px;
+}
+
+
+
+
+@media screen and (max-width: 730px){
+.logo{
+	padding-left:20px;}
+.advantages-container{padding-left:20px;}
+.name{padding-left:30px;}
+.social{padding-left:30px;}
+.corporation{padding-left:40px;}
+.topnav{display:flex;
+justify-content: space-around;}
+.menu{display: flex;
+justify-content:center;
+flex-direction:column;}
+.guide{
+	font-size:24px;
+	width:100px;}
+.advantages-item{
+	width:45%;
+	}
+.project-item{
+	width:45%;}
+.container{
+	width: 30rem;
+}
+.about-container{
+	width: 80%;
+}
+.services-container{
+	display: grid;
+	grid-template-columns: auto;}
+}
+
+@media screen and (max-width: 530px){
+.advantages{
+	flex-direction:column;}
+.advantages-item{
+	width:100%;}
+.container{
+	width: 20rem;
+}
+}
